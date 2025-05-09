@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Quize Site</title>
+</head>
+<body>
+    <div class="wrapper min-h-screen bg-[#2c729e] flex justify-center items-center"> 
+
+        <!-- body starts here -->
+        <div id="quizBody" class="quiz-body bg-[#f2f2f2] h-[440px] sm:h-[440px] sm:w-[500px] w-[90%] rounded-[7px]">
+            <div class="top bg-amer-300 w-full h-[70px] flex flex-row justify-between border-b-2">
+                <div class="heading w-[70%] h-[70px] text-[1.7rem] sm:text-[1.9rem] flex font-bold items-center justify-center shrink text-center">
+                    Simple Quiz
+                </div>
+                <div id="scoreCount" class="score-counter w-[30%] h-[70px] flex justify-center items-center font-medium text-[1.5rem]">
+                    0/10
+                </div>
+            </div>
+            <div id="question" class=" bg-aber-700 m-2 question-body min-h-[65px] flex text-[1.3rem] items-center pt-1 pb-1 pl-5 font-medium pr-2">
+
+            </div>
+            <div id="optionsBody" class="options-body flex flex-col   justify-center items-center h-[210px] gap-2">
+                <div class="option bg-blue-50 w-[80%] text-left p-2 text-[1.1rem] border-1 rounded-[8px] pl-4 cursor-pointer hover:bg-blue-100">
+
+                </div>
+                <div class="option bg-blue-50 w-[80%] text-left p-2 text-[1.1rem] border-1 rounded-[8px] pl-4 cursor-pointer hover:bg-blue-100">
+
+                </div>
+                <div class="option bg-blue-50 w-[80%] text-left p-2 text-[1.1rem] border-1 rounded-[8px] pl-4 cursor-pointer hover:bg-blue-100">
+
+                </div>
+                <div class="option bg-blue-50 w-[80%] text-left p-2 text-[1.1rem] border-1 rounded-[8px] pl-4 cursor-pointer hover:bg-blue-100">
+
+                </div>
+            </div>
+            <div  id="buttonDiv" class="button bg-ambe-300  h-[60px] bg-amer-200 flex sm:justify-around justify-center items-center sm:items-end flex-col-reverse sm:flex-row ">
+                <!-- <button id="prevBtn" class="next-button bg-blue-800 w-[170px] h-[35px] sm:h-[37px] p-2 flex justify-center items-center text-[1rem] sm:text-[1.1rem] cursor-pointer text-white rounded-[5px] hover:bg-blue-900 m-1">
+                    Previous Question
+                </button> -->
+
+                <!-- <button id="nextBtn" class="next-button bg-blue-800 w-[170px] h-[35px] sm:h-[37px] p-2 flex justify-center items-center text-[1rem] sm:text-[1.1rem] cursor-pointer text-white rounded-[5px] hover:bg-blue-900 m-1">
+                    Next Question
+                </button> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
